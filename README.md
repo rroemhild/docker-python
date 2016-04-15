@@ -4,8 +4,8 @@ This image is based on Debian Jessie, contains packages required to build most o
 
 ## Supported Tags
 
-* `2.7` ([2.7/Dockerfile](https://github.com/rroemhild/python/blob/master/2.7/Dockerfile))
-* `3.4` ([3.4/Dockerfile](https://github.com/rroemhild/python/blob/master/3.4/Dockerfile))
+* `2.7` ([2.7/Dockerfile](https://github.com/rroemhild/docker-python/blob/master/2.7/Dockerfile))
+* `3.4` ([3.4/Dockerfile](https://github.com/rroemhild/docker-python/blob/master/3.4/Dockerfile))
 
 ## Quick Start
 
