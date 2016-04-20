@@ -7,7 +7,7 @@ ENV LANG C.UTF-8
 
 RUN apt-get -q update \
     && apt-get install --no-install-recommends -y -q \
-       ca-certificates build-essential git mercurial \
+       ca-certificates build-essential git mercurial locales \
        python2.7 python2.7-dev python-pip \
        libffi-dev libssl-dev libxml2-dev \
        libxslt1-dev libpq-dev libmysqlclient-dev libcurl4-openssl-dev \
@@ -21,7 +21,7 @@ RUN apt-get -q update \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Upgrade pip and install virtualenv
-RUN pip install --no-cache-dir --upgrade pip virtualenv
+RUN pip install --upgrade pip virtualenv
 
 WORKDIR /app
 
